@@ -107,7 +107,7 @@ nav button:focus {
 .dot {
   display: inline-block;
 
-  width: 13px;
+  min-width: 13px;
   height: 13px;
 
   margin: 10px 0px;
