@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/public/GNULogo.png"
+      type="image/x-icon" />
+    <title>Linea De Tiempo</title>
+  </head>
+  <body>
+    <header><h1>Historia de GNU/UI</h1></header>
+    <main>
+      <nav>
+        <button onclick="expandAll()">Expand All</button>
+        <button onclick="collapseAll()">Collapse All</button>
+      </nav>
+
+      <section>
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">27 de septiembre de 1983</span>
+              <br />
+              <strong> Fundación del Proyecto GNU </strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Richard Stallman anuncia el Proyecto GNU, con el objetivo de crear
+              un sistema operativo completamente libre.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">5 de enero de 1984</span>
+              <br />
+              <strong>Comienzo del Desarrollo de GNU</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Richard Stallman deja su trabajo en el MIT para comenzar a
+              trabajar a tiempo completo en GNU.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">4 de octubre de 1985</span>
+              <br />
+              <strong>Fundación de la Free Software Foundation (FSF)</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Se funda la FSF para apoyar el desarrollo del software libre,
+              incluyendo GNU.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">25 de febrero de 1989</span>
+              <br />
+              <strong>Publicación de la Primera Versión de la GPL</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Se lanza la primera versión de la Licencia Pública General de GNU
+              (GPL), que garantiza que el software cubierto por ella permanezca
+              libre.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">17 de septiembre de 1991</span>
+              <br />
+              <strong>Primer Lanzamiento Público del Núcleo Linux</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Linus Torvalds lanza la primera versión del núcleo Linux (0.01),
+              que en combinación con GNU forma un sistema operativo completo.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">16 de abril de 1992</span>
+              <br />
+              <strong>MCC Interim Linux</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Se lanza MCC Interim Linux, una de las primeras distribuciones de
+              Linux.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+
+        <div class="item">
+          <div class="header">
+            <button onclick="toggleItem(this)">
+              <img src="./assets/public/arrow.svg" alt="Flecha" />
+            </button>
+            <span class="dot"></span>
+            <span class="title">
+              <span class="date">22 de agosto de 1993</span>
+              <br />
+              <strong>Lanzamiento de la Primera Versión de Debian</strong>
+            </span>
+          </div>
+          <div class="body">
+            <p>
+              Ian Murdock lanza la primera versión de Debian (0.01), una
+              distribución comprometida con los principios del software libre.
+            </p>
+          </div>
+        </div>
+
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+        <!-- ################################################################# -->
+      </section>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>
