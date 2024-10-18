@@ -33,7 +33,7 @@ header {
 }
 
 main {
-  margin: 3pc auto;
+  margin: 1pc auto 3pc auto;
 
   width: 90%;
   max-width: 600px;
