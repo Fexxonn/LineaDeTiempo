@@ -9,7 +9,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--text);
   background-color: black;
   background: var(--background) center no-repeat;
@@ -33,7 +33,7 @@ header {
 }
 
 main {
-  margin: auto;
+  margin: 3pc auto;
 
   width: 90%;
   max-width: 600px;
